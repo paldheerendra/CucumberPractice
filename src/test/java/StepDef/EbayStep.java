@@ -16,6 +16,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import junit.framework.Assert;
 
+
 public class EbayStep {
 
 	WebDriver driver;
@@ -39,6 +40,10 @@ public class EbayStep {
 
 		driver.close();
 	}
+	
+	
+	
+	
 
 	@Given("^user is on ebay website$")
 	public void user_is_on_ebay_website() throws Throwable {
