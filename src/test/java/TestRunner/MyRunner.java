@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		glue="StepDef",
 //		dryRun=true,
 //		strict=false,
-		plugin= {"pretty", "html:test-output"},
+		plugin= {"pretty", "html:test-output", "json: Test_Reports/cucumber.json"},
 		tags= {"@Smoke"}
 		
 		

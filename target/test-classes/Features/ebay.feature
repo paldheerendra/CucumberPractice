@@ -52,13 +52,13 @@ Examples:
 #    | Dave                  | pa£sword	| 
 
 	
-
+@Smoke
 Scenario: Check the total links on website home page
 	Given ebay website is opened in brower
 	When verify the ebay website is opened
 	Then check total links on website and print these links to console
 
-
+@Smoke
 Scenario: Search items Test
 	Given ebay website is opened in brower
 	When verify the ebay website is opened
